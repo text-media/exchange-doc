@@ -6,7 +6,6 @@
 
 * [Customer API](Customer.md)
 * [Performer API](Performer.md)
-* [Service API](Service.md)
 
 ## Базовая информация
 

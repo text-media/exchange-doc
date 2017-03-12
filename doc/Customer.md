@@ -61,6 +61,8 @@ URL для запросов: `/api/customer`.
 
 ## Order
 
+[Описание сущности Order](Entities.md#order)
+
 ### order.publish
 
 Публикация заказа
@@ -596,6 +598,8 @@ URL для запросов: `/api/customer`.
 
 ## Offer
 
+[Описание сущности Offer](Entities.md#offer)
+
 ### offer.accept
 
 Принятие оффера исполнителя
@@ -717,6 +721,8 @@ URL для запросов: `/api/customer`.
 * User.rating
 
 ## Folder
+
+[Описание сущности Folder](Entities.md#folder)
 
 ### folder.create
 
@@ -863,6 +869,8 @@ URL для запросов: `/api/customer`.
 
 ## Comment
 
+[Описание сущности Comment](Entities.md#comment)
+
 ### comment.create
 
 Добавление комментария
@@ -979,6 +987,8 @@ URL для запросов: `/api/customer`.
 ```
 
 ## Claim
+
+[Описание сущности Claim](Entities.md#claim)
 
 ### claim.create
 
@@ -1147,6 +1157,8 @@ URL для запросов: `/api/customer`.
 ```
 
 ## Document
+
+[Описание сущности Document](Entities.md#document)
 
 ### document.getList
 

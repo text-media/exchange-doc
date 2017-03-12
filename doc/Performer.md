@@ -53,6 +53,8 @@ URL для запросов: `/api/performer`.
 
 ## Offer
 
+[Описание сущности Offer](Entities.md#offer)
+
 ### offer.accept
 
 Принятие персонального оффера от заказчика
@@ -230,6 +232,8 @@ URL для запросов: `/api/performer`.
 
 ## Comment
 
+[Описание сущности Comment](Entities.md#comment)
+
 ### comment.create
 
 Добавление комментария
@@ -308,6 +312,8 @@ URL для запросов: `/api/performer`.
 ```
 
 ## Claim
+
+[Описание сущности Claim](Entities.md#claim)
 
 ### claim.create
 
@@ -476,6 +482,8 @@ URL для запросов: `/api/performer`.
 ```
 
 ## Document
+
+[Описание сущности Document](Entities.md#document)
 
 ### document.getList
 
@@ -752,6 +760,8 @@ URL для запросов: `/api/performer`.
 | performerId | +            |
 
 ## Order
+
+[Описание сущности Order](Entities.md#order)
 
 ### order.getList
 

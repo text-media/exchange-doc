@@ -126,8 +126,10 @@ URL для запросов: `/api/customer`.
 | customerId   | +            |
 | performerId  | -            |
 | folderId     | -            |
+| languageId   | -            |
 | performer    | +            |
 | work         | +            |
+| language     | -            |
 
 Параметры для **performer**:
 
@@ -144,6 +146,13 @@ URL для запросов: `/api/customer`.
 | ----------- | :----------: |
 | minimalSize | +            |
 | sizeType    | +            |
+
+Параметры для **language**:
+
+| Название      | Обязательный |
+| ------------- | :----------: |
+| languageId    | +            |
+| skillLevel    | +            |
 
 ### order.saveAsDraft
 
@@ -208,8 +217,10 @@ URL для запросов: `/api/customer`.
 | customerId   | +            |
 | performerId  | -            |
 | folderId     | -            |
+| languageId   | -            |
 | performer    | +            |
 | work         | +            |
+| language     | -            |
 
 Параметры для **performer**:
 
@@ -226,6 +237,13 @@ URL для запросов: `/api/customer`.
 | ----------- | :----------: |
 | minimalSize | +            |
 | sizeType    | +            |
+
+Параметры для **language**:
+
+| Название      | Обязательный |
+| ------------- | :----------: |
+| languageId    | +            |
+| skillLevel    | +            |
 
 ### order.saveAsTemplate
 
@@ -290,8 +308,10 @@ URL для запросов: `/api/customer`.
 | customerId   | +            |
 | performerId  | -            |
 | folderId     | -            |
+| languageId   | -            |
 | performer    | +            |
 | work         | +            |
+| language     | -            |
 
 Параметры для **performer**:
 
@@ -308,6 +328,13 @@ URL для запросов: `/api/customer`.
 | ----------- | :----------: |
 | minimalSize | +            |
 | sizeType    | +            |
+
+Параметры для **language**:
+
+| Название      | Обязательный |
+| ------------- | :----------: |
+| languageId    | +            |
+| skillLevel    | +            |
 
 ### order.edit
 
@@ -351,8 +378,10 @@ URL для запросов: `/api/customer`.
 | deadline    | -            |
 | performerId | -            |
 | folderId    | -            |
+| languageId   | -            |
 | performer   | -            |
 | work        | -            |
+| language    | -            |
 
 Параметры для **performer**:
 
@@ -369,6 +398,13 @@ URL для запросов: `/api/customer`.
 | ----------- | :----------: |
 | minimalSize | -            |
 | sizeType    | -            |
+
+Параметры для **language**:
+
+| Название      | Обязательный |
+| ------------- | :----------: |
+| languageId    | +            |
+| skillLevel    | +            |
 
 ### order.packing
 

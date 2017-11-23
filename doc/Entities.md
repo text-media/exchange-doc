@@ -22,9 +22,11 @@
 | customerId | ID заказчика | `int` |
 | performerId | ID исполнителя | `int` |
 | folderId | ID папки | `int`, `null` |
+| languageId | Язык ТЗ | `int` |
 | state | Текущее состояние заказа | `int`, [константное значение](#Константы-state) |
 | performerRequirements | Требования к исполнителю | Структура |
 | workRequirements | Требования к работе | Структура |
+| languageRequirements | Требования к языку | Структура |
 
 ### Константы `exchangeType`
 
@@ -78,6 +80,15 @@
 | ---- | ---------- | ------------ |
 | sizeType | Способо подсчета размера работы | `int`, [константное значение](#Константы-workrequirementssizetype) |
 | minimalSize | Минимальный размер работы | `int` |
+
+### Структура `languageRequirements`
+
+Требования к языку работы и владение языком исполнителем
+
+| Поле | Назначение | Тип значения |
+| ---- | ---------- | ------------ |
+| languageId | Язык работы | `int` |
+| skillLevel | Владения языком исполнителем | `int` |
 
 ### Константы `WorkRequirements.sizeType`
 

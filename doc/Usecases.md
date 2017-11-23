@@ -40,9 +40,8 @@
 ## Заказ с автопринятием первого предложения
 
 1. Заказчик публикует заказ [`order.publish`](Customer.md#orderpublish)
-2. Исполнитель создает предложение [`offer.create`](Performer.md#offercreate), одновременно с этим предложение принимается в работу
-3. По истечению времени ожидания система принимает в работу релевантное предложение
-4. Исполнитель отправляет работу [`order.finishWork`](Performer.md#orderfinishwork)
-5. Заказчик получает работу [`document.getList`](Customer.md#documentgetlist)
-6. Заказчик завершает заказ [`order.finish`](Customer.md#orderfinish)
+2. Исполнитель создает предложение [`offer.create`](Performer.md#offercreate), если предложение релевантно, то заказ принимается в работу
+3. Исполнитель отправляет работу [`order.finishWork`](Performer.md#orderfinishwork)
+4. Заказчик получает работу [`document.getList`](Customer.md#documentgetlist)
+5. Заказчик завершает заказ [`order.finish`](Customer.md#orderfinish)
 
